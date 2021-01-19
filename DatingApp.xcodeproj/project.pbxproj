@@ -15,6 +15,9 @@
 		486A8EF025A7882900677EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486A8EEE25A7882900677EE7 /* LaunchScreen.storyboard */; };
 		486A8EFA25A78CAA00677EE7 /* Rolling_Bold_Free_Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486A8EF925A78CAA00677EE7 /* Rolling_Bold_Free_Version.ttf */; };
 		486A8EFE25A9D5C500677EE7 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486A8EFD25A9D5C500677EE7 /* GoogleService-Info-2.plist */; };
+		4871970425B5FD5B00351917 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871970325B5FD5B00351917 /* SignUpViewModel.swift */; };
+		4871970725B5FD6B00351917 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871970625B5FD6B00351917 /* LogInViewModel.swift */; };
+		4871970A25B605DA00351917 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871970925B605DA00351917 /* PreferencesViewController.swift */; };
 		BF9F910D9B3A4F093ABA638C /* Pods_DatingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8B1CE65EFEECD90C7899BA /* Pods_DatingApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		486A8EF125A7882900677EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		486A8EF925A78CAA00677EE7 /* Rolling_Bold_Free_Version.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rolling_Bold_Free_Version.ttf; sourceTree = "<group>"; };
 		486A8EFD25A9D5C500677EE7 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		4871970325B5FD5B00351917 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		4871970625B5FD6B00351917 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		4871970925B605DA00351917 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		9A8B1CE65EFEECD90C7899BA /* Pods_DatingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53509AD4B8644DE44174C65 /* Pods-DatingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.release.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +86,10 @@
 				486A8EE325A7882400677EE7 /* AppDelegate.swift */,
 				486A8EE525A7882400677EE7 /* SceneDelegate.swift */,
 				486A8EE725A7882400677EE7 /* LogInAndSignUpViewController.swift */,
+				4871970325B5FD5B00351917 /* SignUpViewModel.swift */,
+				4871970625B5FD6B00351917 /* LogInViewModel.swift */,
 				486A8EE925A7882400677EE7 /* Main.storyboard */,
+				4871970925B605DA00351917 /* PreferencesViewController.swift */,
 				486A8EEC25A7882900677EE7 /* Assets.xcassets */,
 				486A8EEE25A7882900677EE7 /* LaunchScreen.storyboard */,
 				486A8EF125A7882900677EE7 /* Info.plist */,
@@ -222,8 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				486A8EE825A7882400677EE7 /* LogInAndSignUpViewController.swift in Sources */,
+				4871970725B5FD6B00351917 /* LogInViewModel.swift in Sources */,
 				486A8EE425A7882400677EE7 /* AppDelegate.swift in Sources */,
+				4871970425B5FD5B00351917 /* SignUpViewModel.swift in Sources */,
 				486A8EE625A7882400677EE7 /* SceneDelegate.swift in Sources */,
+				4871970A25B605DA00351917 /* PreferencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
