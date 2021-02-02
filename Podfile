@@ -6,6 +6,10 @@ target 'DatingApp' do
   use_frameworks!
 
   # Pods for DatingApp
-pod 'Firebase/Auth'
+pod 'FirebaseUI/Auth'
+pod 'FirebaseUI/Google'
 pod 'Firebase/Firestore'
+pod 'MessageKit'
+pod 'MessageInputBar'
+pod 'Scaledrone', '~> 0.3.0'
 end
